@@ -113,7 +113,8 @@ article:hover {
 }
 
 .inner-footer-wrapper {
-  width: 30%;
+  width: 27%;
+  height: 4rem;
   margin-right: 1%;
   display: flex;
   justify-content: space-around;
