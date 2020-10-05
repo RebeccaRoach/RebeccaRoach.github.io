@@ -4,7 +4,7 @@
 
  body {
   margin: 0;
-  background-image: url(../portfolio_assets/half_sky.jpg);
+  background-image: url('https://images.unsplash.com/photo-1493843007199-f4397137f7d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -58,21 +58,24 @@
 
 #headshot {
   border-radius: 50%;
-  border: 2px solid black;
+  border: 3px solid black;
+  max-width: 20%;
 }
 
 .name {
   font-size: 300%;
+  padding-right: 5%;
 }
 
 .wrapper-box {
   display: flex;
-  width: 45%;
+  width: 55%;
   padding: 3%;
   flex-wrap: wrap;
-  background-color: rgba(255,255,255, 0.4);
+  background-color: rgba(255,255,255, .60);
+  font-size: 1.3em;
   padding-top: 10%;
-  margin-left: 1%;
+  margin-left: 3%;
 }
 
 .half-and-half {
@@ -93,12 +96,12 @@
 }
 
 .inner-footer-wrapper {
-  width: 30%;
+  width: 27%;
+  height: 4rem;
   margin-right: 1%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 #github-logo, #linkedin-logo {
