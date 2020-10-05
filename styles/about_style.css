@@ -61,27 +61,34 @@ font-family: 'Martel', serif;
 }
 /* end of nav bar */
 
+.container {
+  /* display: flex; */
+}
+
 .wrapper-box {
   display: flex;
-  width: 47%;
+  width: 55%;
   padding: 3%;
   flex-wrap: wrap;
-  background-color: rgba(255,255,255, 0.6);
+  background-color: rgba(255,255,255, 0.7);
   padding-top: 8%;
-  margin-left: 1%;
+  margin-left: 3%;
+  font-size: 1.1em;
 }
 
 .buttons {
-  margin-left: 1%;
+  margin-left: 23%;
 }
 
 button {
-  background:rgba(255,255,255, 0.6);
+  background:rgba(255,255,255, 0.9);
   margin-top: 2%;
+  margin-right: 2%;
   padding: 1%;
-  /* text-align: center; */
+  border-radius: 8px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 button:hover {
@@ -100,12 +107,12 @@ button:hover {
 }
 
 .inner-footer-wrapper {
-  width: 30%;
+  width: 27%;
+  height: 4rem;
   margin-right: 1%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 #github-logo, #linkedin-logo {
