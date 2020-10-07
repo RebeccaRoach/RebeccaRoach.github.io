@@ -34,6 +34,10 @@
   color: black;
 }
 
+#name-anchor:hover {
+  color: #FDFFF6;
+}
+
 /* ul */
 .nav-flex {
   display: flex;
@@ -58,8 +62,15 @@
 
 #headshot {
   border-radius: 50%;
-  border: 3px solid black;
+  /* border: 3px solid black; */
+  box-shadow: 0 4px 8px 0 rgba(182, 27, 27, 0.2), 0 6px 20px 0 rgba(48, 10, 218, 0.19);
   max-width: 20%;
+}
+
+#headshot:hover {
+  border: 0px;
+  transform: scale(1.35,1.35);
+  /* box-shadow: 0 4px 8px 0 rgba(182, 27, 27, 0.2), 0 6px 20px 0 rgba(48, 10, 218, 0.19); */
 }
 
 .name {
@@ -102,6 +113,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+#email {
+  color: black;
+  font-size:1.1em;
+  text-decoration: none;
+}
+
+#email:hover {
+  color: #00a693;
 }
 
 #github-logo, #linkedin-logo {
