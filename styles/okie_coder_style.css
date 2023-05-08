@@ -1,0 +1,5 @@
+.bullets {
+    list-style: square outside;
+    margin-left: 20px;
+    padding-left: 0;
+}
