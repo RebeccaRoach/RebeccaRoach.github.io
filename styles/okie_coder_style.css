@@ -6,9 +6,9 @@
 
 * {
     font-family: 'Sen', sans-serif;
-  }
+}
   
-   body {
+body {
     margin: 0;
     background-image: url(../portfolio_assets/okc_backdrop.jpg);
     background-size: cover;
@@ -16,124 +16,166 @@
     width: 100%;
     background-position: center center;
     position: relative;
-  }
+}
   
-  .welcome {
-    padding-top: 5%;
-    position: relative;
-  }
+.welcome {
+  padding-top: 5%;
+  position: relative;
+}
   
-  /* Navigation Bar */
-  .top-nav {
-    background-color: #00a693;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  } 
+/* Navigation Bar */
+.top-nav {
+  background-color: #00a693;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+} 
   
-  /* h4 */
-  .top-nav h4 a {
-    white-space: nowrap;
-    margin-left: 10px;
-    color: black;
-  }
+/* h4 */
+.top-nav h4 a {
+  white-space: nowrap;
+  margin-left: 10px;
+  color: black;
+}
   
-  #name-anchor:hover {
-    color: #FDFFF6;
-  }
+#name-anchor:hover {
+  color: #FDFFF6;
+}
   
-  /* ul */
-  .nav-flex {
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    width: 100%;
-  }
+/* ul */
+.nav-flex {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  width: 100%;
+}
   
-  .nav-flex li {
-    margin-right: 20px;
-  }
+.nav-flex li {
+  margin-right: 20px;
+}
   
-  .top-nav a {
-    text-decoration: none;
-    color: white;
-  }
+.top-nav a {
+  text-decoration: none;
+  color: white;
+}
   
-  .nav-flex li a:hover {
-    color: black;
-  }
-  /* end of nav bar */
+.nav-flex li a:hover {
+  color: black;
+}
+/* end of nav bar */
   
-  .wrapper-box {
-    display: flex;
-    width: 55%;
-    padding: 3%;
-    flex-wrap: wrap;
-    background-color: rgba(255,255,255, 0.7);
-    padding-top: 8%;
-    margin-left: 3%;
-    font-size: 1.1em;
-  }
+.wrapper-box {
+  display: flex;
+  width: 55%;
+  padding: 3%;
+  flex-wrap: wrap;
+  background-color: rgba(255,255,255, 0.7);
+  padding-top: 8%;
+  margin-left: 3%;
+  font-size: 1.1em;
+}
   
-  .buttons {
-    margin-left: 23%;
-    display: flex;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-  }
+.buttons {
+  margin-left: 23%;
+  display: flex;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
   
-  .button {
-    background:rgba(255,255,255, 0.9);
-    margin-top: 2%;
-    margin-right: 2%;
-    padding: 1%;
-    border-radius: 8px;
-    max-width: 10%;
-    font-size: 1em;
+.button {
+  background:rgba(255,255,255, 0.9);
+  margin-top: 2%;
+  margin-right: 2%;
+  padding: 1%;
+  border-radius: 8px;
+  max-width: 10%;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+  
+.button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button a:hover {
+  color:rgba(0, 166, 147, 1);
+}
+
+/* footer */
+.footer-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin-top: 15%;
+}
+
+.inner-footer-wrapper {
+  width: 27%;
+  height: 4rem;
+  margin-right: 1%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#email {
+  color: black;
+  font-size:1.1em;
+  text-decoration: none;
+}
+
+#email:hover {
+  color: #00a693;
+}
+
+#github-logo, #linkedin-logo {
+  width: 40px;
+  height: 40px;
+}
+
+  
+/* style the headers */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 24px 0 16px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0 16px;
+}
+
+h4 {
+    font-size: 20px;
     font-weight: bold;
-    text-align: center;
+    margin: 24px 0 16px;
   }
+
+/* style the paragraphs */
+p {
+  margin: 16px 0;
+}
+
+/* style the unordered lists */
+ul {
+  margin: 16px 0;
+  padding-left: 24px;
+}
+
+/* style the links */
+/* a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+} */
   
-  .button a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .button a:hover {
-    color:rgba(0, 166, 147, 1);
-  }
-  
-  /* footer */
-  .footer-wrapper {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    width: 100%;
-    background-color: white;
-    margin-top: 15%;
-  }
-  
-  .inner-footer-wrapper {
-    width: 27%;
-    height: 4rem;
-    margin-right: 1%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  #email {
-    color: black;
-    font-size:1.1em;
-    text-decoration: none;
-  }
-  
-  #email:hover {
-    color: #00a693;
-  }
-  
-  #github-logo, #linkedin-logo {
-    width: 40px;
-    height: 40px;
-  }
